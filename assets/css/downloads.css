@@ -1,0 +1,55 @@
+.downloads{
+    margin: 60px auto 100px;
+    width: 80%;
+    height: fit-content;
+}
+
+.downloads h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 50px;
+}
+
+.content {
+    background-color: #F6F6F6;
+    border-radius: 10px;
+    margin: 60px 0;
+}
+
+.content-downloads{
+    padding-bottom: 30px;
+}
+
+.content-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D6EAE7;
+    height: 90px;
+    font-size: 24px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.file {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 5px 40px;
+}
+
+.file img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.file p{
+    position: absolute;
+    right: 0;
+}
+
+.material hr{
+    width: 95%;
+    border: 1px solid #A59E9E;
+    margin: 0 auto;
+}

@@ -1,0 +1,36 @@
+a {
+    color: inherit;
+}
+
+.title{
+    width: 100%;
+    height: 150px;
+    background-color: #E5EFF4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.content{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    padding: 50px 80px;
+    margin-bottom: 50px;
+}
+
+.content img {
+    width: 600px;
+    height: 450px;
+}
+
+.detail {
+    padding: 30px 50px;
+    font-size: 16px;
+    line-height: 36px;
+}

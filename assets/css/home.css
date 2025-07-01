@@ -1,8 +1,3 @@
-body{
-    margin: 0;
-    font-family: sans-serif;
-}
-
 .image{
     display: flex;
     font-size: 35px;
@@ -202,7 +197,6 @@ body{
     display: flex;
     flex-direction: column;
     flex: 1;
-    /* background-color: blue; */
     padding: 30px 30px;
 }
 
@@ -213,7 +207,6 @@ body{
     font-weight: 600;
     font-size: 16px;
     align-items: center;
-    /* background-color: red; */
 }
 
 .link img{
