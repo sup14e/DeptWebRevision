@@ -1,0 +1,48 @@
+.research {
+    margin: 100px auto;
+    width: 80%;
+}
+
+.intro h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.intro p{
+    margin: 50px 0 0;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: justify;
+}
+
+.research hr{
+    border: 1px solid black;
+    margin: 50px 0;
+}
+
+.field-container{
+    height: fit-content;
+    background-color: #E5EFF4;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.field{
+    padding: 20px 60px;
+    /* background-color: aqua; */
+}
+
+.field h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.field ul{
+    font-size: 16px;
+    line-height: 32px;
+}
+
+#flip{
+    background-color: #F3F5F6;
+}
