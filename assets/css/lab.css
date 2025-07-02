@@ -1,0 +1,68 @@
+.lab {
+    margin: 50px auto;
+    width: 80%
+}
+
+.intro {
+    text-align: center;
+    margin: 70px 0;
+}
+
+.lab-container {
+    display: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+}
+
+.lab-item {
+    background-color: #FAFAFA;
+    width: 50%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.lab-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C8DFF1;
+    height: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.lab-name h3 {
+    margin: 30px;
+}
+
+.lab-desc {
+    margin: 30px 65px;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.lab-desc div:not(.lab-img) {
+    margin: 0 0 -25px;
+}
+
+#lab-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.lab-desc div{
+    display: flex;
+}
+
+.desc-topic {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.lab-desc hr{
+    border: 1px solid rgba(0,0,0,0.3);
+    margin: 25px 0;
+}
