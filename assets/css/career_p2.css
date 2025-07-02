@@ -1,0 +1,79 @@
+/* General reset and font setup */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.Career {
+  display: flex;
+  justify-content: flex-end; 
+  flex-wrap: wrap; 
+  padding-bottom: 1%; 
+  padding-top: 5%;
+  
+}
+
+.Career > div a {
+    text-decoration: none;
+    background-color: #F6F6F6;
+    color: black;
+    padding: 10px 16px;
+    font-size: 14px;
+    border-right: 1px solid #1e3663;
+}
+
+.Career > div a:hover {
+  background-color: #D6EAE7;
+}
+
+.Topic {
+    background-color: #E5EFF4;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.Topic h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Section styling */
+section {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+  .Career {
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .Career > div a {
+    font-size: 13px;
+    padding: 8px 12px;
+    text-align: center;
+  }
+}
+
