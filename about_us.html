@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
-    <header>
-        <link rel="stylesheet" href="about_us.css" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="assets/css/about_us.css" />
         <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
         <title>About us</title>
-    </header>
+    </head>
+
     <body>
         <header>
             <div class="banner">
-                <img src="banner.png" alt="Banner" />
+                <img src="assets/image/banner.png" alt="Banner" />
             </div>
         </header>
         <div class="AboutUs">
@@ -35,7 +38,7 @@
             </div>
         </div>
         <div class="OurMission">
-            <img src="building.jpg" alt="Logo" />
+            <img src="assets/image/building.jpg" alt="Logo" />
             <div class="Info">
                 <h4>OUR MISSIONS</h4>
                 <p>
@@ -92,62 +95,71 @@
             <div class="Core">
                 <h4>CORE<br>COMPETENCIES</h4>
                 <div class="core-container">
-                <div class="left_core">
-                    <h5>Undergraduate Program:</h5>
-                    <ul>
-                        <li>Mathematical logic</li>
-                        <li>Implementation and verification</li>
-                        <li>Application of IT</li>
-                        <li>Organizational communication</li>
-                    </ul>
-                    <h5>Master’s / In-Service Master’s Program:</h5>
-                    <ul>
-                        <li>Professional IT knowledge</li>
-                        <li>Problem-solving with IT applications</li>
-                        <li>Communication and presentation skills</li>
-                        <li>Innovation and independent thinking</li>
-                    </ul>
-                    <h5>Ph.D. Program:</h5>
-                    <ul>
-                        <li>Identify and solve complex problems</li>
-                        <li>Professional IT knowledge</li>
-                        <li>Organisational communication</li>
-                        <li>Independent and innovative thinking</li>
-                    </ul>
-                    <h5>Graduate Institute of Software Engineering:</h5>
-                    <ul>
-                        <li>Software engineering planning and management</li>
-                        <li>IT applications and problem-solving</li>
-                        <li>Presentation and communication</li>
-                        <li>Innovation and independent thinking</li>
-                    </ul>
-                </div>
-                <div class="right_core">
-                    <ul class="one">
-                        <li>Teamwork and coordination</li>
-                        <li>Problem-solving</li>
-                        <li>Global perspective and lifelong learning</li>
-                        <li>Professional ethics and social responsibility</li>
-                    </ul>
-                    <ul class="two">
-                        <li>Teamwork and collaboration</li>
-                        <li>Understanding IT trends and global issues</li>
-                        <li>Ethics and social responsibility</li>
-                        <li>Lifelong learning and personal development</li>
-                    </ul>
-                    <ul class="three">
-                        <li>Cross-disciplinary project management</li>
-                        <li>Insight into global IT trends</li>
-                        <li>Project planning and execution</li>
-                        <li>Lifelong learning and self-growth</li>
-                    </ul>
-                    <ul class="four">
-                        <li>Teamwork and coordination</li>
-                        <li>Awareness of IT trends and global development</li>
-                        <li>Ethics and responsibility</li>
-                        <li>Lifelong learning and self-improvement</li>
-                    </ul>
-                </div>
+                    <div class="program">
+                        <h5>Undergraduate Program:</h5>
+                        <div class="core-columns">
+                            <ul>
+                                <li>Mathematical logic</li>
+                                <li>Implementation and verification</li>
+                                <li>Application of IT</li>
+                                <li>Organizational communication</li>
+                            </ul>
+                            <ul>
+                                <li>Teamwork and coordination</li>
+                                <li>Problem-solving</li>
+                                <li>Global perspective and lifelong learning</li>
+                                <li>Professional ethics and social responsibility</li>
+                            </ul>
+                        </div>
+
+                        <h5>Master’s / In-Service Master’s Program:</h5>
+                        <div class="core-columns">
+                            <ul>
+                                <li>Professional IT knowledge</li>
+                                <li>Problem-solving with IT applications</li>
+                                <li>Communication and presentation skills</li>
+                                <li>Innovation and independent thinking</li>
+                            </ul>
+                            <ul>
+                                <li>Teamwork and collaboration</li>
+                                <li>Understanding IT trends and global issues</li>
+                                <li>Ethics and social responsibility</li>
+                                <li>Lifelong learning and personal development</li>
+                            </ul>
+                        </div>
+
+                        <h5>Ph.D. Program:</h5>
+                        <div class="core-columns">
+                            <ul>
+                                <li>Identify and solve complex problems</li>
+                                <li>Professional IT knowledge</li>
+                                <li>Organisational communication</li>
+                                <li>Independent and innovative thinking</li>
+                            </ul>
+                            <ul>
+                                <li>Cross-disciplinary project management</li>
+                                <li>Insight into global IT trends</li>
+                                <li>Project planning and execution</li>
+                                <li>Lifelong learning and self-growth</li>
+                            </ul>
+                        </div>
+
+                        <h5>Graduate Institute of Software Engineering:</h5>
+                        <div class="core-columns">
+                            <ul>
+                                <li>Software engineering planning and management</li>
+                                <li>IT applications and problem-solving</li>
+                                <li>Presentation and communication</li>
+                                <li>Innovation and independent thinking</li>
+                            </ul>
+                            <ul>
+                                <li>Teamwork and coordination</li>
+                                <li>Awareness of IT trends and global development</li>
+                                <li>Ethics and responsibility</li>
+                                <li>Lifelong learning and self-improvement</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -171,11 +183,12 @@
         </div>
         <div class="Timeline">
             <h1>Department Chairs</h1>
-            <img src="chair_timeline.png" alt="DepartmentChair" />
+            <img src="assets/image/chair_timeline.png" alt="DepartmentChair" />
             <h1>Associate Chairs</h1>
-            <img src="asso_timeline.png" alt="DepartmentChair" />
+            <img src="assets/image/asso_timeline.png" alt="DepartmentChair" />
         </div>
         <div class="Academic">
+            <h4>ACADEMIC<br>FEATURES</h4>
             <ul>
                 <li>Each required and elective course is assigned a teaching assistant; required courses also include Ph.D. student TAs.</li>
                 <li>Introduction to CS course covers the department’s four main research areas, related industries, and foundational knowledge.</li>
@@ -191,7 +204,6 @@
                 <li>TA feedback sessions recognize outstanding performance and share experiences.</li>
                 <li>Learning surveys are conducted in week 6 of each semester to guide course adjustments.</li>
             </ul>
-            <h4>ACADEMIC<br>FEATURES</h4>
         </div>
         <div class="Transport">
             <h3>TRANSPORTATION</h3>
@@ -226,13 +238,13 @@
                 <div class="trans_text">
                     <h4>By High-Speed Rail</h4>
                     <p>Get off at HSR Taoyuan Station:<br>
-                        <ul>
-                            <li>Take Bus 132 or 172 directly to NCU.</li>
-                            <li>Or transfer in Zhongli City by bus.</li>
-                            <li>Taxis are available at the HSR station (Taiwan Taxi: 4058-8888 or mobile 55688).</li>
-                            <li>Driving from HSR station to NCU takes about 15–20 minutes.</li>
-                        </ul>
-                        HSR schedule: <a href="https://www.thsrc.com.tw/en/home"target="_blank">https://www.thsrc.com.tw/en/home</a>.
+                    <ul>
+                        <li>Take Bus 132 or 172 directly to NCU.</li>
+                        <li>Or transfer in Zhongli City by bus.</li>
+                        <li>Taxis are available at the HSR station (Taiwan Taxi: 4058-8888 or mobile 55688).</li>
+                        <li>Driving from HSR station to NCU takes about 15–20 minutes.</li>
+                    </ul>
+                    HSR schedule: <a href="https://www.thsrc.com.tw/en/home"target="_blank">https://www.thsrc.com.tw/en/home</a>.
                     </p>
                 </div>
             </div>
@@ -246,7 +258,7 @@
                         Bus information: <a href="https://order.kingbus.com.tw/ORD/ORD_M_1500_HomePage.aspx" target="_blank">https://order.kingbus.com.tw/ORD/ORD_M_1500_HomePage.aspx</a><br>
                         <a href="https://ebus.tycg.gov.tw/ebus" target="_blank">https://ebus.tycg.gov.tw/ebus</a>
                     </p> 
-                </div>"
+                </div>
             </div>
             <div class="trans">
                 <div class="trans_img">
@@ -268,9 +280,9 @@
             <h1>CAMPUS<br>LANDMARKS</h1>
             <div class="Archway">
                 <div class="campus_img">
-                    <img src="Archway.png" alt="Archway" />
+                    <img src="assets/image/Archway.png" alt="Archway" />
                 </div>
-                <div class campus_text>
+                <div class ="campus_text">
                     <h4>NCU Archway</h4>
                     <p>
                         The iconic archway at the main entrance is known as the "NCU Triumphal Arch." 
@@ -279,22 +291,22 @@
                 </div>
             </div>
             <div class="Turtle">
-                <div class campus_text>
+                <div class="campus_img">
+                    <img src="assets/image/Turtle.png" alt="Turtle" />
+                </div>
+                <div class ="campus_text">
                     <h4>Turtle Pond</h4>
                     <p>
                         Located in front of Dormitory 9, the fountain pond is home to many turtles basking in the sun. 
                         Its shimmering fountain is a quiet and scenic spot.
                     </p>
                 </div>
-                <div class="campus_img">
-                    <img src="Turtle.png" alt="Turtle" />
-                </div>
             </div>
             <div class="Lover">
                 <div class="campus_img">
-                    <img src="Lover.png" alt="Lover" />
+                    <img src="assets/image/Lover.png" alt="Lover" />
                 </div>
-                <div class campus_text>
+                <div class ="campus_text">
                     <h4>Lover’s Lane</h4>
                     <p>
                         A scenic 2 kilo meter pine-lined trail around campus, wide enough 
@@ -303,16 +315,16 @@
                 </div>
             </div>
             <div class="Sculpture">
-                <div class campus_text>
+                <div class="campus_img">
+                    <img src="assets/image/Sculpture.png" alt="Turtle" />
+                </div>
+                <div class ="campus_text">
                     <h4>Tai Chi Sculpture</h4>
                     <p>
                         Located on the lawn near the College of Liberal Arts, this sculpture 
                         by Ju Ming, a master of contemporary art, represents traditional 
                         Chinese culture and serves as a peaceful rest area for students and visitors.
                     </p>
-                </div>
-                <div class="campus_img">
-                    <img src="Sculpture.png" alt="Turtle" />
                 </div>
             </div>
         </div>
