@@ -1,0 +1,343 @@
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+.banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+  }
+  
+.banner img {
+width: 100%;       
+height: auto;      
+display: block;    
+max-width: 100%;   
+  }
+
+.AboutUs {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5% 8% 5% 8%;
+    gap: 40px;
+}
+  
+.Topic {
+flex: 1;
+max-width: 60%;
+}
+
+.Topic h4 {
+font-size: 18px;
+margin-bottom: 10px;
+}
+
+.Topic h1 {
+font-size: 40px;
+font-weight: bold;
+color: #000;
+}
+
+.Info {
+text-align: justify;
+flex: 2;
+font-size: 15px;
+line-height: 2.0;
+}
+
+.OurMission {
+background-color: #E5EFF4;
+display: flex;
+gap: 40px;
+align-items: flex-start;
+flex-wrap: wrap;
+padding : 0% 8% 0% 0%;
+}
+
+.OurMission img {
+border-radius: 0% 0% 20% 0%;
+max-width: 40%;
+}
+
+.OurMission h4 {
+font-size: 20px;
+}
+
+.OurMission.Info{
+text-align: justify;
+flex: 2;
+font-size: 15px;
+line-height: 0;
+}
+
+.Education {
+display: flex;
+align-items: stretch;
+}
+
+.Objective{
+background-color: #D6EAE7;
+padding : 2% 2% 5% 3%;
+
+}
+
+.Objective h4 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.Objective h5 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.Objective ul {
+    font-size: 15px;
+    line-height: 2.0;
+}
+
+.Core{
+    background-color: #F5F5F5;
+    padding: 2% 2% 4% 3%;
+    width: 100vw;         /* Full viewport width */
+    box-sizing: border-box;
+}
+
+.core-container {
+    display: flex;
+    
+    align-items: flex-start;
+}
+
+.Core h4 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.left_core h5 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.left_core ul {
+    font-size: 15px;
+    line-height: 2.0;
+}
+
+.one {
+    font-size: 15px;
+    line-height: 2.0;
+    margin-top: 16%;
+}
+.two {
+    font-size: 15px;
+    line-height: 2.0;
+    margin-top: 16%;
+}
+.three {
+    font-size: 15px;
+    line-height: 2.0;
+    margin-top: 15%;
+}
+.four {
+    font-size: 15px;
+    line-height: 2.0;
+    margin-top: 19%;
+}
+
+.History {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5% 8% 2% 8%;
+    gap: 40px;
+}
+
+.History h1 {
+    flex: 1;
+    max-width: 60%;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
+}
+    
+.History p {
+text-align: justify;
+flex: 2;
+font-size: 15px;
+line-height: 2.0;
+}
+
+.Timeline {
+padding: 2% 8% 0% 8%;
+}
+
+.Timeline h1 {
+font-size: 30px;
+margin-bottom: 20px;
+}
+
+.Timeline img {
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow: hidden; 
+margin-bottom: 5%;
+}
+
+.Academic {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0% 8% 2% 8%;
+    gap: 40px;
+}
+
+.Academic li {
+    text-align: justify;
+    flex: 1;
+    max-width: 80%;
+    font-size: 15px; 
+    color: #000;
+    line-height: 2.0;
+}
+    
+.Academic h4 {
+text-align: right;
+flex: 2;
+font-size: 40px;
+font-weight: bold;
+}
+
+.Transport {
+    background-color: #F6F6F6;
+    padding : 2% 2% 5% 3%;
+}
+
+.Transport h3 {
+    font-size: 40px;
+    margin-bottom: 5%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Transport h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+.trans_img {
+    width: 100px;
+    height: 100px;
+    background-color: #C8DFF1; /* or any color */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 50px;
+    flex-shrink: 0;
+}
+
+.trans{
+    display: flex;
+    justify-content: baseline;
+    align-items: flex-start;
+    padding: 0% 8% 2% 8%;
+    gap: 40px;
+}
+
+.trans_text {
+    font-size: 15px;
+    line-height: 2.0;
+}
+
+.Campus {
+    padding: 2% 8% 2% 8%;
+}
+
+.Archway {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 5%;
+    gap: 40px;
+}
+.Archway h1 {
+    flex: 1;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
+}
+.Archway p {
+text-align: justify;
+flex: 2;
+font-size: 15px;
+line-height: 1.5;
+}
+.Turtle {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 5%;
+    gap: 40px;
+}
+.Turtle h1 {
+    flex: 1;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
+}
+.Turtle p {
+text-align: justify;
+flex: 2;
+font-size: 15px;
+line-height: 1.5;
+}
+
+.Lover {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 5%;
+    gap: 40px;
+}
+.Lover h1 {
+    flex: 1;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
+}
+.Lover p {
+text-align: justify;
+flex: 2;
+font-size: 15px;
+line-height: 1.5;
+}
+.Sculpture {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 5%;
+    gap: 40px;
+}
+.Sculpture h1 {
+    flex: 1;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
+}
+.Sculpture p {
+text-align: justify;
+flex: 2;
+font-size: 15px;
+line-height: 1.5;
+}
+
