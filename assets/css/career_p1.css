@@ -1,0 +1,93 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.Career {
+  display: flex;
+  justify-content: flex-end; 
+  flex-wrap: wrap; 
+  padding-bottom: 1%; 
+  padding-top: 5%;
+  
+}
+
+.Career > div a {
+    text-decoration: none;
+    background-color: #F6F6F6;
+    color: black;
+    padding: 10px 16px;
+    font-size: 14px;
+    border-right: 1px solid #1e3663;
+}
+
+.Career > div a:hover {
+  background-color: #D6EAE7;
+}
+
+.Topic {
+  background-color: #E5EFF4;
+  color: black;
+  padding: 5% ; 
+}
+
+.Topic h1 {
+    padding-bottom: 2%;
+    font-weight: bold;
+}
+
+.Philosophy{
+  color: black;
+  padding: 5% ;   
+  line-height: 2.0;
+}
+
+.Philosophy h4{
+    font-size: 25px;
+    padding-bottom: 2%;
+}
+
+.Philosophy p{
+    font-size: 15px;
+    padding-bottom: 2%;
+}
+
+.Graduation {
+    color: black;
+    padding: 2% 5% 5% 5%;   
+    line-height: 2.0;
+    background-color: #E5EFF4;
+}
+
+.Graduation h4{
+    font-size: 25px;
+    padding-bottom: 2%;
+}
+
+@media (max-width: 768px) {
+  .Career {
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .Career > div a {
+    font-size: 13px;
+    padding: 8px 12px;
+    text-align: center;
+  }
+
+  .Topic h1 {
+    font-size: 22px;
+  }
+
+  .Topic p,
+  .Philosophy p,
+  .Philosophy ul,
+  .Graduation ul {
+    font-size: 14px;
+  }
+
+  .Philosophy h4,
+  .Graduation h4 {
+    font-size: 20px;
+  }
+}
