@@ -9,17 +9,23 @@
 }
 
 .lab-container {
-    display: row;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: aquamarine;
+    /* align-content: flex-start; */
+    justify-content: center;
+    gap: 47px;
 }
 
 .lab-item {
+    display: flex;
+    flex-direction: column;
     background-color: #FAFAFA;
-    width: 50%;
+    width: 650px;
+    height: 800px;
     border-radius: 20px;
     overflow: hidden;
+    margin: 0 0 50px; 
 }
 
 .lab-name {
@@ -28,7 +34,7 @@
     justify-content: center;
     background-color: #C8DFF1;
     height: 80px;
-    font-size: 20px;
+    font-size: 110%;
     font-weight: bold;
     text-align: center;
 }
@@ -38,13 +44,15 @@
 }
 
 .lab-desc {
+    display: flex;
+    flex-direction: column;
     margin: 30px 65px;
     font-size: 16px;
     line-height: 32px;
 }
 
 .lab-desc div:not(.lab-img) {
-    margin: 0 0 -25px;
+    margin: 0 0 -30px;
 }
 
 #lab-img{
@@ -64,5 +72,39 @@
 
 .lab-desc hr{
     border: 1px solid rgba(0,0,0,0.3);
-    margin: 25px 0;
+    margin: 25px 0 0;
+}
+
+.include {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+    line-height: 26px;
+    height: 240px;
+}
+
+.include li, .include p{
+    margin: 0;
+}
+
+.include a:not(.button){
+    text-decoration: none;
+    color: inherit;
+}
+
+.button{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #2F4E87;
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid #2F4E87;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
 }
