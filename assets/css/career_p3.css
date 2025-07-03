@@ -1,0 +1,252 @@
+.Career {
+  display: flex;
+  justify-content: flex-end; 
+  flex-wrap: wrap; 
+  padding-bottom: 1%; 
+  padding-top: 5%;
+  
+}
+
+.Career > div a {
+    text-decoration: none;
+    background-color: #F6F6F6;
+    color: black;
+    padding: 10px 16px;
+    font-size: 14px;
+    border-right: 1px solid #1e3663;
+}
+
+.Career > div a:hover {
+  background-color: #D6EAE7;
+}
+
+.Topic {
+    background-color: #E5EFF4;
+    color: black;
+    padding: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 100px; 
+    flex-wrap: wrap; 
+}
+
+.Topic h1 {
+    white-space: nowrap;  
+    flex: 1;
+    font-size: 24px;      
+    margin: 0;
+}
+
+.Topic p {
+    flex: 2;
+    font-size: 15px;
+    line-height: 2.0;
+    text-align: justify;
+}
+
+.Survey {
+    padding: 8%;
+}
+
+.Survey h1 {
+    font-weight: bold;
+}
+
+.Ungraduate {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap; /* allows wrapping on small screens */
+}
+
+.Ungraduate > div {
+  flex: 1;
+  min-width: 250px;
+}
+
+.Ungraduate p {
+  text-align: justify;
+  font-size: 12px;
+  line-height: 2.0;
+}
+
+.Ungraduate img {
+  width: 25%;
+  height: auto;
+}
+
+.Graduate h3 {
+    font-size: 20px;
+    padding-top: 5%;
+    margin-bottom: 20px;
+}
+
+.Graduate p {
+  text-align: justify;
+  font-size: 12px;
+  line-height: 2.0;
+}
+
+.imgRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 2%;
+  flex-wrap: wrap;
+}
+
+.imgRow img {
+  width: 30%;
+  height: auto;
+  object-fit: contain;
+}
+
+.One-Year {
+    padding: 0% 8% 0% 8%;
+}
+
+.Table5-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 80px;
+  flex-wrap: wrap;
+  padding-top: 2%;
+}
+
+.Table5-1 p {
+  flex: 1;
+  min-width: 250px;
+  text-align:justify;
+  line-height: 2.5;
+  font-size: 12px;
+}
+
+.Table5-1 img {
+  width: 45%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.Table5-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+  padding-top: 5%;
+  flex-wrap: wrap; 
+}
+
+.Info_5-2 {
+  flex: 1;
+  min-width: 250px;
+}
+
+.Info_5-2 ul{
+  flex: 1;
+  min-width: 250px;
+  text-align: justify;
+  line-height: 2.0;
+  font-size: 12px;
+}
+
+.Table5-2 img {
+  width: 45%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.Occupational {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+    padding-top: 5%;
+    flex-wrap: wrap; 
+}
+
+.Occupational-Title {
+    flex: 1;
+    min-width: 250px;
+}
+
+.Occupational-Title p {
+    text-align: justify;
+    line-height: 2.0;
+    font-size: 12px;
+    padding-bottom: 5%;
+}
+
+.Occupational-Field {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    min-width: 250px;
+}
+
+.Occupational-Field img {
+    width: 100%;
+    height: auto;
+}
+
+.Info_5-2 p{
+  flex: 1;
+  min-width: 250px;
+  text-align: justify;
+  line-height: 2.0;
+  font-size: 12px;
+}
+
+.Table5-7 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  padding-top: 5%;
+  flex-wrap: wrap;
+}
+
+.Table5-7 img {
+  width: 40%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.Table5-7-info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.Table5-7-info h3 {
+  margin-top: 0;
+}
+
+.Table5-7-info p {
+  line-height: 1.8;
+  text-align: justify;
+  font-size: 12px;
+}
+
+.JobBank {
+    padding: 0% 8% 0% 8%;
+}
+
+.Statistic {
+    padding-bottom: 10%;
+}
+
+
+@media (max-width: 768px) {
+  .Career {
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .Career > div a {
+    font-size: 13px;
+    padding: 8px 12px;
+    text-align: center;
+  }
+}

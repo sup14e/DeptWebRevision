@@ -24,8 +24,6 @@ body {
   background-color: #D6EAE7;
 }
 
-.Career
-
 .Topic {
   background-color: #E5EFF4;
   color: black;
@@ -33,7 +31,7 @@ body {
 }
 
 .Topic h1 {
-    padding-bottom: 2%;
+    
     font-weight: bold;
 }
 
@@ -62,7 +60,6 @@ body {
 
 .Graduation h4{
     font-size: 25px;
-    padding-bottom: 2%;
 }
 
 @media (max-width: 768px) {
