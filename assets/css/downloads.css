@@ -36,9 +36,15 @@
     align-items: center;
     position: relative;
     margin: 5px 40px;
+    padding: 1%;
 }
 
 .file img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.file i{
     width: 30px;
     margin-right: 10px;
 }
