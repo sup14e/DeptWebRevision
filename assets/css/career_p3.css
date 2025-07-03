@@ -249,4 +249,76 @@
     padding: 8px 12px;
     text-align: center;
   }
+  .Topic {
+    flex-direction: column;
+    gap: 30px;
+    padding: 10%;
+  }
+
+  .Topic h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .Topic p {
+    font-size: 14px;
+  }
+
+  /* Ungraduate Section */
+  .Ungraduate {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Ungraduate img {
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  /* Image Rows */
+  .imgRow {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imgRow img {
+    width: 90%;
+  }
+
+  /* Table5-1 and Table5-2 */
+  .Table5-1,
+  .Table5-2,
+  .Occupational,
+  .Table5-7 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Table5-1 img,
+  .Table5-2 img,
+  .Table5-7 img {
+    width: 100%;
+  }
+
+  .Table5-1 p,
+  .Info_5-2 ul,
+  .Info_5-2 p,
+  .Occupational-Title p,
+  .Table5-7-info p {
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  /* Occupational */
+  .Occupational-Field img {
+    width: 90%;
+  }
+
+  /* Text container spacing */
+  .Table5-1 p,
+  .Table5-7-info,
+  .Info_5-2,
+  .Occupational-Title {
+    width: 100%;
+  }
 }
