@@ -3,7 +3,7 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    max-width: 1200px;
+    max-width: 70%;
     margin: 40px auto;
 }
 
@@ -30,10 +30,9 @@
     margin: auto;
     display: flex;
     color: white;
-    justify-content: space-between;
-    /* max-width: 70%; */
-    max-width: 1100px;
-    padding: 5px;
+    justify-content: center;
+    gap: 3%;
+    max-width: 65%;
 }
 
 .button{
@@ -60,12 +59,12 @@
 .content{
     display: flex;
     margin: 50px auto;
-    width: 1200px;
+    width: 70%;
     border-radius: 15px;
 }
 
 #news-content{
-    height: 550px;
+    height: fit-content;
     background-color: #EBF0FA;
 }
 
@@ -87,7 +86,7 @@
 }
 
 .content-title hr{
-    width: 180px;
+    width: 55%;
     margin: -10px;
     border-width: 3px;
     border: solid;
@@ -125,7 +124,7 @@
 }
 
 .events-content{
-    width: 1200px;
+    width: 70%;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -168,19 +167,12 @@
     margin: 20px auto 30px;
 }
 
-/* .external{
-    width: 100%;
-    height: 500px;
-} */
-
 #external-content{
     background-color: #F6F6F6;
-    margin: 75px auto; 
 }
 
 #external-content-title{
     background-color: #D6EAE7;
-    height: 400px;
 }
 
 .source {
@@ -201,8 +193,7 @@
 
 .link img{
     margin-left: 10px;
-    width: 25px;
-    height: 25px;
+    max-width: 3%;
 }
 
 .source hr{
@@ -216,4 +207,63 @@
 a{
     text-decoration: none;
     color: inherit;
+}
+
+@media (max-width:768px) {
+
+    .title{ 
+        max-width: 100%;
+    }
+
+    .category {
+        max-width: 100%;
+        margin-top: -5%;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .content, .events-content, .events-container, 
+    .content-title, .news-headline{
+        width: 100%;
+    }
+
+    .content, .events-content, .events-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-title{
+        flex-direction: row;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 15px;
+    }
+
+    .content-title hr{
+        display: none;
+    }
+
+    .news, .events, .external{
+        padding: 5%;
+        height: fit-content;
+    }
+
+    .events{
+        margin-top: 0;
+    }
+
+    .events-item {
+        width: 87%;
+        align-items: center;
+        margin: 0 0 7%;
+    }
+
+    .events-item img{
+        width: 43%;
+    }
+
+    .events .title{
+        margin: 0 auto 50px
+    }
+
 }

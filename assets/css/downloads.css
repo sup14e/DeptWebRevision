@@ -36,17 +36,21 @@
     align-items: center;
     position: relative;
     margin: 5px 40px;
+    justify-content: space-between;
+}
+
+.file div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .file img{
     width: 30px;
+    height: 30px;
     margin-right: 10px;
 }
 
-.file p{
-    position: absolute;
-    right: 0;
-}
 
 .material hr{
     width: 95%;
