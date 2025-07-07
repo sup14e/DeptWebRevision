@@ -11,13 +11,48 @@
 }
 
 .content {
+    height: fit-content;
     background-color: #F6F6F6;
     border-radius: 10px;
     margin: 60px 0;
+    padding: 0 0 1%;
+    width: 100%;
 }
 
 .content-downloads{
     padding-bottom: 30px;
+}
+
+#inner{
+    margin: 3% 2%;
+    width: 96%;
+    background-color: white;
+    font-size: 16px;
+}
+
+#inner img{
+    width: 25px;
+}
+
+#inner .content-title {
+    font-size: 110%;
+    background-color: #E5EFF4;
+}
+
+#row {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+#row .content-title{
+    background-color: #587B4F;
+    color: white;
+}
+
+#row .content{
+    background-color: #F6F6F6;
 }
 
 .content-title {
@@ -25,18 +60,38 @@
     justify-content: center;
     align-items: center;
     background-color: #D6EAE7;
-    height: 90px;
+    /* height: 90px; */
     font-size: 24px;
     border-top-left-radius: 9px;
     border-top-right-radius: 9px;
 }
 
+#download-info{
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+
+.content-detail{
+    margin: 0 2%;
+    padding: 1%;
+    line-height: 200%;
+    /* text-indent: 2%; */
+    /* font-size: 120%; */
+}
+
+#row .content-detail{
+    margin: 2%;
+    text-indent: 0;
+}
+
 .file {
     display: flex;
     align-items: center;
-    position: relative;
+    justify-content: space-between;
     margin: 5px 40px;
     padding: 1%;
+    text-decoration: none;
+    color: inherit;
 }
 
 .file div{
@@ -46,21 +101,25 @@
 
 .file img{
     width: 30px;
-    height: 30px;
+    height: auto;
     margin-right: 10px;
 }
 
-.file i{
+.file span{
+    font-weight: normal;
+}
+
+/* .file i{
     width: 30px;
     margin-right: 10px;
-}
+} */
 
-.file p{
+/* .file p{
     position: absolute;
     right: 0;
-}
+} */
 
-.material hr{
+hr{
     width: 95%;
     border: 1px solid #A59E9E;
     margin: 0 auto;
