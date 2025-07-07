@@ -53,7 +53,7 @@ line-height: 2.0;
 }
 
 .OurMission {
-background-color: #E5EFF4;
+background-color: #D2EEFF;
 display: flex;
 gap: 40px;
 align-items: flex-start;
@@ -83,7 +83,7 @@ align-items: stretch;
 }
 
 .Objective{
-background-color: #D6EAE7;
+background-color: #76CCC7;
 padding : 2% 2% 5% 3%;
 
 }
@@ -208,7 +208,7 @@ margin-bottom: 5%;
 }
 
 .Transport {
-    background-color: #F6F6F6;
+    background-color: #FFFC9C;
     padding : 2% 2% 5% 3%;
 }
 
