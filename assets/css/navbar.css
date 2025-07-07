@@ -132,7 +132,32 @@ display: block;
 max-width: 100%;
 }
   
+@media (max-width: 768px){
+  .logo img{
+    height: 30px;
+  }
 
+  .nav-links li a{
+    font-size: 80%;
+  }
+
+  .nav-links {
+    gap: 10px;
+  }
+
+  .lang-switch a{
+    font-size: 80%;
+  }
+
+  .nav-extra i{
+    font-size: 80%;
+  }
+
+  .fa-search{
+    margin-right: -10px;
+  }
+
+}  
 
   
   

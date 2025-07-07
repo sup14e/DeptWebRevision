@@ -37,13 +37,13 @@
 #inner .content-title {
     font-size: 110%;
     background-color: #E5EFF4;
+    color: black;
 }
 
 #row {
     display:flex;
     flex-direction: row;
     justify-content: center;
-    /* background-color: red; */
 }
 
 #row .content-title{
@@ -59,8 +59,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #D6EAE7;
-    /* height: 90px; */
+    background-color: #4A9CC5;
+    color: white;
     font-size: 24px;
     border-top-left-radius: 9px;
     border-top-right-radius: 9px;
@@ -75,8 +75,6 @@
     margin: 0 2%;
     padding: 1%;
     line-height: 200%;
-    /* text-indent: 2%; */
-    /* font-size: 120%; */
 }
 
 #row .content-detail{
@@ -109,18 +107,16 @@
     font-weight: normal;
 }
 
-/* .file i{
-    width: 30px;
-    margin-right: 10px;
-} */
-
-/* .file p{
-    position: absolute;
-    right: 0;
-} */
-
 hr{
     width: 95%;
     border: 1px solid #A59E9E;
     margin: 0 auto;
+}
+
+#admit {
+    justify-content: flex-start;
+}
+
+#admit i{
+    margin-right: 20px;
 }

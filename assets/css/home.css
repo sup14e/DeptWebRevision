@@ -254,6 +254,7 @@ body{
 
 .events-item img {
     width: 100%;
+    max-width: 280px;
     border-radius: 10px;
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.25);
 }
@@ -328,9 +329,14 @@ a{
     color: inherit;
 }
 
+.events .title {
+    margin-bottom: 40px;
+}
+
 @media (max-width: 768px) {
     .title { 
         max-width: 100%;
+        margin-bottom: 40px;
     }
 
     .category {
@@ -372,5 +378,16 @@ a{
     .events-container {
         padding: 10px 10px;
         gap: 20px;
+        flex-direction: column;
+    }
+
+    .events-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .events-content .button {
+        margin-bottom: 20px;
     }
 }
