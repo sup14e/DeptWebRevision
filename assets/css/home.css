@@ -148,7 +148,7 @@ body{
     display: flex;
     margin: 50px auto;
     width: 85%;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 #news-content{
@@ -165,8 +165,8 @@ body{
     align-items: center;
     justify-content: center;
     width: 320px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
+    /* border-top-left-radius: 15px; */
+    /* border-bottom-left-radius: 15px; */
     font-size: 28px;
     color: #2F4E87;
     text-align: center;
@@ -180,7 +180,7 @@ body{
 
 .content-title hr{
     width: 55%;
-    margin: -10px;
+    margin: -20px;
     border: solid 1px;
     border-color: white;
 }
@@ -228,7 +228,7 @@ body{
     background-color: white;
     margin: -40px auto 30px;
     padding: 35px 0;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     display: flex;
     flex-direction: column;
     align-items: center;

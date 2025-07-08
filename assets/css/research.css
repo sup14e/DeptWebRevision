@@ -23,13 +23,11 @@
 .field-container{
     height: fit-content;
     background-color: #E5EFF4;
-    border-radius: 10px;
     overflow: hidden;
 }
 
 .field{
     padding: 20px 60px;
-    /* background-color: aqua; */
 }
 
 .field h3{

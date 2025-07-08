@@ -257,83 +257,31 @@ margin-bottom: 5%;
     padding: 2% 8% 2% 8%;
 }
 
-.Archway {
+/* Shared layout for all sections */
+.Archway, .Turtle, .Lover, .Sculpture {
     display: flex;
-    justify-content: space-between;
+    justify-content: baseline;
     align-items: flex-start;
     padding-top: 5%;
     gap: 40px;
-}
-.Archway h1 {
-    flex: 1;
-    font-size: 40px;
-    font-weight: bold;
-    color: #000;
-}
-.Archway p {
-text-align: justify;
-flex: 2;
-font-size: 15px;
-line-height: 1.5;
-}
-.Turtle {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding-top: 5%;
-    gap: 40px;
-}
-.Turtle h1 {
-    flex: 1;
-    font-size: 40px;
-    font-weight: bold;
-    color: #000;
-}
-.Turtle p {
-text-align: justify;
-flex: 2;
-font-size: 15px;
-line-height: 1.5;
 }
 
-.Lover {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding-top: 5%;
-    gap: 40px;
-}
-.Lover h1 {
+/* Shared styles for headings */
+.Archway h1, .Turtle h1, .Lover h1, .Sculpture h1 {
     flex: 1;
     font-size: 40px;
     font-weight: bold;
     color: #000;
 }
-.Lover p {
-text-align: justify;
-flex: 2;
-font-size: 15px;
-line-height: 1.5;
+
+/* Shared styles for paragraphs */
+.Archway p, .Turtle p, .Lover p, .Sculpture p {
+    text-align: justify;
+    flex: 2;
+    font-size: 15px;
+    line-height: 1.5;
 }
-.Sculpture {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding-top: 5%;
-    gap: 40px;
-}
-.Sculpture h1 {
-    flex: 1;
-    font-size: 40px;
-    font-weight: bold;
-    color: #000;
-}
-.Sculpture p {
-text-align: justify;
-flex: 2;
-font-size: 15px;
-line-height: 1.5;
-}
+
 
 @media (max-width: 768px) {
     .AboutUs, .OurMission, .Education, .History, .Academic,

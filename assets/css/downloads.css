@@ -13,7 +13,7 @@
 .content {
     height: fit-content;
     background-color: #F6F6F6;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     margin: 60px 0;
     padding: 0 0 1%;
     width: 100%;
@@ -62,8 +62,8 @@
     background-color: #4A9CC5;
     color: white;
     font-size: 24px;
-    border-top-left-radius: 9px;
-    border-top-right-radius: 9px;
+    /* border-top-left-radius: 9px; */
+    /* border-top-right-radius: 9px; */
 }
 
 #download-info{
