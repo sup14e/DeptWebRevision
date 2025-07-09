@@ -1,0 +1,71 @@
+.page-title{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin: 50px auto;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+.staff-container {
+    width: 100%;
+    height: fit-content;
+    padding: 1.5rem 10%;
+}
+
+.staff-container h2{
+    font-size: 2em;
+}
+
+#leader{
+    background-color: #F2F2F2;
+}
+
+.dept-lead {
+    width: 100%;
+    display: flex;
+}
+
+.staff-content img{
+    width: clamp(230px, 15vw, 300px);
+    aspect-ratio: 4/5;
+    object-fit: cover;
+}
+
+.staff-content div:not(.dept-lead div){
+    margin: 3rem 0;
+}
+
+.dept-detail {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem;
+}
+
+.dept-detail h3{
+    line-height: 0;
+    font-size: 1.5rem;
+}
+
+.dept-detail p{
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.dept-staff{
+    width: clamp(230px, 15vw, 300px);
+    display:flex;
+    flex-direction: column;
+}
+
+.dept-staff *{
+    margin: 0 0 1vw;
+}
+
+.staff-profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0 5vw;
+}
